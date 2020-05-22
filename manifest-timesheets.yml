@@ -6,7 +6,7 @@ applications:
   memory: 1G
   instances: 1
   env:
-    REGISTRATION_SERVER_ENDPOINT: http://imesheets-pal-188a2f4b-dd1d-4677-b40b-735508faf30f.apps.evans.pal.pivotal.io
+    REGISTRATION_SERVER_ENDPOINT: http://timesheets-pal-188a2f4b-dd1d-4677-b40b-735508faf30f.apps.evans.pal.pivotal.io
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
   services:
   - tracker-timesheets-database
