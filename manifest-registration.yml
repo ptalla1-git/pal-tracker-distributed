@@ -2,7 +2,7 @@ applications:
 - name: tracker-registration
   path: ./applications/registration-server/build/libs/registration-server.jar
   routes:
-  - route: registration-pal-${UNIQUE_IDENTIFIER}.${DOMAIN}
+  - route: registration-pal-188a2f4b-dd1d-4677-b40b-735508faf30f.apps.evans.pal.pivotal.io
   memory: 1G
   instances: 1
   env:
